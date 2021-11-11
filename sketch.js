@@ -43,7 +43,7 @@ kangaroo.addAnimation("kangaroo", kangaroo_running)
 
 //Set the collider of the kangaroo as a circle and the radius of the collider as 300
 kangaroo.setCollider("circle",0,0,300);
-kangaroo.debug = true
+//kangaroo.debug = true
 //Create a sprite for Invisible ground and place it at the bottom side of the screen.
   invisiblejungle = createSprite(300,350,290,20)
   invisiblejungle.visible = false
